@@ -173,5 +173,13 @@ color: var(--orange-color);
     .btn:hover{
         background: var(--light-orange-color);
         transition: 0.2s ease;
-
     }
+    .swiper-button-next
+    {
+        background: url(image/right-arrow.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+        margin-right: 20px;
+    }
+
