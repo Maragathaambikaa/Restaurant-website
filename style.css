@@ -176,10 +176,36 @@ color: var(--orange-color);
     }
     .swiper-button-next
     {
-        background: url(image/right-arrow.png);
+        background: url(img/right-arrow.png);
         background-repeat: no-repeat;
         background-size: 100% auto;
         background-position: center;
         margin-right: 20px;
     }
+
+    .swiper-button-next::after{
+        display: none;
+    }
+
+    .swiper-button-prev
+    {
+        background: url(img/left-arrow.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+        margin-left: 20px;
+    }
+
+    .swiper-button-prev::after{
+        display: none;
+    }
+    .heading
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    
+
+
 
