@@ -1,0 +1,6 @@
+google fonts
+Boxicons
+Images: purepng
+        swiperjs
+Images predownloaded and save in the same folder location
+Css clip path maker
